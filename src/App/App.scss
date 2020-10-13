@@ -1,2 +1,48 @@
 .App {
+  max-width: 960px;
+  margin: auto;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-left: 15px;
+}
+
+#group-div {
+  display: flex;
+  padding: 20px 20px 20px 20px;
+}
+
+#group-button {
+  color: black;
+  margin-right: 1px;
+}
+
+.group-info {
+  margin: auto;
+}
+
+.group-tables {
+  border: 1px solid gray;
+  margin: auto;
+  width: 860px;
+  text-align: center;
+}
+
+#group-name {
+  background-color: lightgray;
+  font-size: 18px;
+}
+
+.group-members {
+  font-size: 18px;
+}
+
+.members-name {
+  margin-left: 15px;
 }
